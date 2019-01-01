@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeScreen"
+    >
+
+    //view flipper for the image slideshow
+
+    <RelativeLayout
+        android:id="@+id/view_flipper"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+        <ViewFlipper
+            android:id="@+id/homescreen_slider"
+            android:layout_width="match_parent"
+            android:layout_height="320dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"></LinearLayout>
+        </ViewFlipper>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/view_flipper"
+        >
+
+        <LinearLayout
+            android:id="@+id/country_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            //bengali items
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/Bengali_img_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/bengali" />
+
+                <TextView
+                    android:id="@+id/Bengali_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/Bengali_img_btn"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="16dp"
+                    android:clickable="true"
+                    android:text="Bengali"
+                    android:textColor="#ffff"
+                    android:textSize="50sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            //indian items
+            <RelativeLayout
+                android:id="@+id/indian"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/indian_img_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:background="@drawable/indian" />
+
+                <TextView
+                    android:id="@+id/indian_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/indian_img_btn"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="16dp"
+                    android:clickable="true"
+                    android:text="Indian"
+                    android:textColor="#ffff"
+                    android:textSize="50sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            //chinese items
+            <RelativeLayout
+                android:id="@+id/chinese"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/chinese_img_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:background="@drawable/chinese" />
+
+                <TextView
+                    android:id="@+id/chinese_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/chinese_img_btn"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="16dp"
+                    android:clickable="true"
+                    android:text="Chienese"
+                    android:textColor="#ffff"
+                    android:textSize="50sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

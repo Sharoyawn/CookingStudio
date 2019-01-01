@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    tools:context=".Sour">
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/youtube_player_sour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/youtube_player_sour">
+
+        <LinearLayout
+            android:id="@+id/linear_layout_ingredients_sour_txt"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            >
+
+            <TextView
+                android:id="@+id/heading_sour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:paddingBottom="16dp"
+                android:paddingRight="16dp"
+                android:text="Hot and Sour Soup"
+                android:textColor="#000000"
+                android:textSize="50sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ingredients_sour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/heading_sour"
+                android:paddingRight="16dp"
+                android:paddingBottom="16dp"
+                android:text="Ingredients"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="#ff8b0e"
+                />
+
+            <TextView
+                android:id="@+id/ingredients_sour_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ing_sour"
+                android:textColor="#872f00"
+                />
+
+            <TextView
+                android:id="@+id/instruction_sour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/heading_sour"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Instruction"
+                android:textSize="30sp"
+                android:textColor="#5df95a"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/instruction_sour_txt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/ins_sour"
+                android:layout_marginBottom="16dp"
+                android:textColor="#205415"
+                android:textIsSelectable="true"
+                android:textAlignment="viewStart"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

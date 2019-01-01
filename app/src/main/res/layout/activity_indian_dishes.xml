@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context=".IndianDishes">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Indian
+Recipes"
+        android:textColor="#000000"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        tools:ignore="NotSibling" />
+
+    <HorizontalScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="420dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/heading">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="420dp"
+            android:layout_below="@+id/heading"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            >
+
+            //h_biryani
+            <LinearLayout
+                android:id="@+id/h_biryani"
+                android:layout_width="330dp"
+                android:layout_height="400dp"
+                android:layout_centerHorizontal="true"
+                android:background="#e5a44e"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/h_biryani_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="320dp"
+                    android:background="@drawable/h_biryani" />
+
+                <TextView
+                    android:id="@+id/h_biryani_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="23dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Hydrebadi Biryani"
+                    android:textColor="#ffffff"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            //dhokla
+            <LinearLayout
+                android:id="@+id/dhokla"
+                android:layout_width="330dp"
+                android:layout_height="400dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="60dp"
+                android:layout_marginLeft="20dp"
+                android:background="#f4db8c"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/dhokla_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="320dp"
+                    android:background="@drawable/dhokla" />
+
+                <TextView
+                    android:id="@+id/dhokla_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="96dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Dhokla"
+                    android:textColor="#ffffff"
+                    android:textSize="50sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            //mutton korma
+            <LinearLayout
+                android:id="@+id/korma"
+                android:layout_width="330dp"
+                android:layout_height="400dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="60dp"
+                android:layout_marginLeft="20dp"
+                android:background="#7a3620"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/korma_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="320dp"
+                    android:background="@drawable/mutton_korma" />
+
+                <TextView
+                    android:id="@+id/korma_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="26dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Mutton Korma"
+                    android:textColor="#ffffff"
+                    android:textSize="50sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </HorizontalScrollView>
+
+</RelativeLayout>

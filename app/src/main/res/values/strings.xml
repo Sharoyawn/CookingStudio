@@ -1,0 +1,279 @@
+<resources>
+    <string name="app_name">Cooking Studio</string>
+    //kachchi ing
+    <string name="ingredients_txt">2 lbs. mutton,
+1 teaspoon ginger paste,
+2 teaspoon garlic paste,
+3-4 dry red chili,
+2-3 stick of cinnamon, half inches each,
+4-5 green cardamom,
+1 teaspoon cumin,
+½ teaspoon cloves,
+½ teaspoon mace,
+⅛ teaspoon nutmeg,
+6-8 allspice (optional),
+½ teaspoon caraway seed (optional),
+3 tablespoon yogurt,
+¾ cup ghee or butter,
+5 medium potato,
+pinch of orange food color (optional),
+½ cup onion, thinly sliced,
+4 cups basmati or kalijeera rice (I use a 160ml cup to measure my rice. Adjust accordingly),
+6 cups water,
+½ cup condensed milk,
+2 tablespoon milk,
+pinch of saffron,
+10-12 alubokhara (pitted prunes),
+4 eggs, hard boiled,
+Salt, according to taste,
+</string>
+
+    //kachchi ins
+    <string name="instruction_txt" translatable="false">Steps to prepare the meat:
+
+1.	Sprinkle some salt on the meat and let stand for 15-20 minutes. Wash the meat and drain all water.
+2.	Take all the spice from red chili to caraway seed, grind.
+3.	Take the pot where biryani will be cooked. Add the meat and yogurt, ground spice mix, garlic and ginger paste and salt. Marinate for anywhere between 30 minutes to overnight (see notes).
+Steps to prepare the onion:
+
+4.	Add about 3 tablespoon of butter/ghee on a frying pan on medium heat.
+5.	Add very thinly sliced onion and Sautee until fragrant and golden brown.
+Steps to prepare the potato:
+
+6.	Wash, peel and cut the potato in big chinks. Usually into 3 pieces for a medium Idaho potato.
+7.	If using, rub some orange food color to the potato.
+8.	Sprinkle some salt.
+9.	Fry the potatoes until slightly golden on the same pan used for the onion.
+Steps to prepare the rice:
+
+10.	Wash rice and drain all water.
+11.	Boil 6 cups of water. Add salt.
+12.	Add the rice.
+13.	Turn off the stove at the first sight of water boiling again (bubble forming on the water) after adding the rice. Rice will be uncooked at this point.
+14.	Drain the rice completely saving the drained hot water in another clean pot.
+
+Steps to assemble the biryani layers and cook:
+
+15.	Preheat oven to 350 degrees Fahrenheit.
+16.	Soak the saffron to the milk.
+17.	Add butter/ghee to 1 cup of hot water that was set aside in the rice preparing step.
+18.	Add the prepared potatoes on top of the marinated meat.
+19.	Sprinkle some fried onion.
+20.	Add the alubokhara (prunes), if using.
+21.	Add half the water-butter mixture.
+22.	Layer in the prepared rice.
+23.	Sprinkle the saffron milk.
+24.	Make 4-5 indentations from the rice layer through the potato till the meat.
+25.	Add the condensed milk through the indentations.
+26.	Sprinkle the remaining water-butter mixture.
+27.	Sprinkle the remaining fried onion.
+28.	Add the remaining hot water in a way that water doesn’t go above the rice layer. You may not need to use all of the hot water.
+29.	Cook in the oven for 1.5 hours.
+30.	Add the hard boiled eggs.
+31.	Serve with salad, kabab and chutney.
+</string>
+
+    //buna_ing
+    <string name="ingredients_txt_buna">1 cup Mung bean
+2 cup Basmati rice,
+½ cup ghee or butter,
+½ cup onion, sliced,
+2 green chilies,
+2 teaspoons garlic paste,
+1 teaspoon ginger paste,
+1 teaspoon turmeric powder,
+1 teaspoon roasted cumin powder,
+1 bay leaf,
+2-3 cloves,
+2-3 cinnamon, about 1” each,
+5 cups boiled water,
+1 tablespoons salt</string>
+
+    //buna_ins
+    <string name="instruction_txt_buna">Wash rice and mung bean. Strain all the water. Set aside.
+Add ghee/butter in a pan on medium heat. Add onion and sautee until slightly golden.
+Add everything from chilies to cinnamon. Fry for 2-3 minutes or until fragrant.
+Add salt and boiled water. At the sight of bubbles, put a lid on the pan and cook for 20-22 minutes or until rice and bean is done.
+Serve with pickled onion.</string>
+
+    //panta_ing
+    <string name="ingredients_panta">2 cups rice,
+Water</string>
+
+    //panta_ins
+    <string name="instruction_panta">Cook rice in normal way.
+Cool rice completely.
+Add water to submerge cooked rice. Set aside overnight.</string>
+
+    //h-biryani ing
+    <string name="ingredients_h_biryani">1 Kg Meat
+1 Tbsp Salt
+1 Tbsp Ginger garlic paste
+1 Tbsp Red chilli paste
+1 Tbsp Green chilli paste (sauteed brown onions to taste)
+1/2 Tbsp Cardamom powder
+3-4 Sticks Cinnamon
+1 Tbsp Cumin seeds
+4 Cloves
+A pinch of Mace
+To taste Mint leaves
+2 Tbsp Lemon juice
+250 Gram Curd
+4 Tbsp Clarified butter
+750 Gram Semi cooked rice
+1 tsp Saffron
+1/2 Cup Water
+1/2 Cup Oil
+Garnish ingredients:
+Eggs, boiled
+Carrots, sliced
+Cucumbers</string>
+
+    //h-biryani ins
+    <string name="instructions_h_biryani">
+Clean the meat. Now in a pan add meat, salt, ginger garlic paste, red chilli powder, green chilli paste, sauteed brown onions, cardamom powder, cinnamon, cumin seeds, cloves, mace, mint leaves and lemon juice.
+2.
+Mix all of these ingredients thoroughly together.
+3.
+Add curd, clarified butter, semi cooked rice, saffron, water and oil. Mix it well.
+4.
+Now apply sticky dough on the sides of the pan.
+5.
+Cover with lid to seal it and cook for about 25 minutes.
+6.
+Hyderabadi Biryani is ready to eat. Garnish it with boiled eggs, sliced carrots, cucumbers and serve hot</string>
+
+    //dhokla ing
+    <string name="ing_dhokla">Gram flour (besan) sieved 2 cups
+Yogurt beaten 1 cup
+Salt to taste
+Turmeric powder 1/2 teaspoon
+Green chilli-ginger paste 1 teaspoon
+Oil 2 tablespoons
+Lemon juice 1 tablespoon
+Soda bicarbonate 1 teaspoon
+Mustard seeds 1 teaspoon
+Fresh coriander leaves chopped 2 tablespoons
+Coconut scraped 1/2 cup </string>
+
+    //dhokla ins
+    <string name="ins_dhokla">Step 1
+Take gram flour in a bowl. Add yogurt and approximately one cup of warm water and mix. Avoid lumps. Add salt and mix again.
+Step 2
+Leave it aside to ferment for three to four hours. When gram flour mixture has fermented, add turmeric powder and green chilli-ginger paste. Mix. Heat the steamer. Grease a thali.
+Step 3
+In a small bowl take lemon juice, soda bicarbonate, one teaspoon of oil and mix. Add it to the batter and whisk briskly. Pour batter into the greased thali and place it in the steamer.
+Step 4
+Cover with the lid and steam for ten minutes. When a little cool, cut into squares and keep in a serving bowl/plate.
+Step 5
+Heat remaining oil in a small pan. Add mustard seeds. When the seeds begin to crackle, remove and pour over the dhoklas.
+Step 6
+Serve, garnished with chopped coriander leaves and scraped coconut. </string>
+
+    //mutton korma ing
+    <string name="ing_korma">
+        1/2 bowl Oil
+1 Onion, sliced
+700 Gram Mutton
+3-4 tsp Curd
+1 bowl Water
+1 Tbsp Salt
+2 tsp Coriander powder
+1 tsp Red chilli powder
+1 tsp Garlic (roughly ground)
+1 tsp Ginger (roughly ground)
+3-4 Cloves
+2-3 Whole green cardamom
+2-3 Cinnamon sticks
+2 tsp Onions, fri
+    </string>
+
+    //mutton korma ins
+    <string name="ins_korma">1.
+Heat the oil in a deep dish, add the finely sliced onions and lightly fry it.
+2.
+Add the mutton, curd, salt, water, coriander powder, red chilli powder and stir for a few minutes.
+3.
+Now add the garlic, ginger, cloves, green cardamom and the cinnamon sticks and mix well.
+4.
+Cover it and cook on a slow fire for about 30 mins, then add the fried onions and stir again.
+5.
+Cover and cook for an hour or till done.
+6.
+Garnish with thin deep fried onion rings and serve hot.
+    </string>
+    //mama chang ing
+    <string name="ing_mama">1 1/2 pounds shelled and deveined large shrimp 3 garlic cloves, sliced One 1-inch piece of fresh ginger, peeled and minced 1 1/2 teaspoons crushed red pepper 1 large egg white 2 teaspoons cornstarch 3/4 cup ketchup 1/2 cup low-sodium chicken broth 1 tablespoon sugar 1 1/2 teaspoons freshly ground pepper 1 1/2 teaspoons kosher salt 1/4 cup canola oil 3 scallions, thinly sliced 1/2 cup coarsely chopped cilantro </string>
+    //mama chang ins
+    <string name="ins_mama">Step 1
+In a large bowl, toss the shrimp with the garlic, ginger, red pepper, egg white and 1 teaspoon of the cornstarch until well-coated.
+Step 2
+In a medium bowl, whisk the ketchup with the broth, sugar, pepper, salt and the remaining 1 teaspoon of cornstarch.
+Step 3
+In a very large skillet, heat the oil until shimmering. Add the shrimp and stir-fry over high heat until they begin to turn pink. Add the ketchup mixture and simmer until the shrimp are cooked, about 2 minutes. Stir in the scallions and cilantro and serve.</string>
+    //sour ing
+    <string name="ing_sour">¼ cup cornstarch, plus 1 teaspoon
+¼ cup water
+1 to 2 dried red chili peppers
+3 oz. pork shoulder or loin
+½ teaspoon oil
+¼ cup soaked dried lily flower
+¼ cup soaked wood ears
+¼ cup soaked dried shiitake mushrooms
+1 small block of spiced tofu (1/4 cup)
+¼ cup packaged firm tofu
+¼ cup winter bamboo shoots (canned is ok and fresh is better if you can find it)
+2 eggs
+1 scallion
+8 cups chicken stock
+½ teaspoon fresh ground white pepper
+2 teaspoon dark soy or mushroom soy sauce
+1 tablespoon light soy sauce or seasoned soy sauce
+Salt to taste
+1 teaspoon sesame oil
+3 tablespoons white vinegar
+1 pinch of sugar</string>
+    //sour ins
+    <string name="ins_sour">
+        Mix ¼ cup cornstarch with an equal amount of water and use a spoon to stir until completely dissolved.
+Cut the dried chile peppers in half discard the seeds. Mince them up and set aside.
+
+Slice the pork into small strips and place into a bowl with the last teaspoon of cornstarch and ½ teaspoon oil. Stir it all together.
+Soak the dried lily flower, wood ears, and mushrooms for an hour or two until hydrated. Once they’re ready, slice the mushrooms and give the wood ears a rough chop. Trim the tough ends off the lily flowers and cut them in half.
+
+Cut the spiced tofu and the firm tofu into 2-inch long and ¼-inch thick pieces.
+
+Slice the winter bamboo shoots into the same shape. Beat the two eggs in a bowl. Wash and chop the scallion and set aside.
+Bring the chicken stock to a boil in a wok or pot and add the pork. Stir to ensure the slices are not clumped together. Skim off any foam that floats to the top.
+Add the chili pepper, white pepper and both soy sauces, and check the soup for salt. Add the lily flowers, wood ears, mushrooms and bamboo shoots and bring the soup to a simmer. Add the two kinds of tofu, sesame oil, vinegar and a pinch of sugar and stir. It should start to look and smell like the real thing about now!
+Use a spoon to remix your cornstarch slurry in the bowl so it’s all combined. Bring the mixture to a simmer and use your soup ladle and stir the soup at the center of the wok in steady a circular motion to make a whirlpool while slowly pouring the corn starch slurry in a thin stream. This prevents the cornstarch from clumping. Stop when you are about ¾ of the way done with your slurry to check the consistency of the soup. It should be thick enough to coat your spoon or ladle. Add the rest if needed.
+
+Keep the hot and sour soup simmering and use the same technique with the beaten eggs and again, make sure the motion is fast enough or you will end up with egg clumps instead of the beautiful swirls or egg “flowers” (which is what the Chinese call it).
+
+Garnish with the chopped scallions and serve your hot and sour soup hot!
+    </string>
+    //tso ing
+    <string name="ing_tso">1 pound chicken thighs cut into 1 inch chunks
+1/4 cup cornstarch
+oil for frying
+1 tablespoon minced ginger
+1/2 teaspoon red chili flakes
+2 cloves garlic minced
+For the Sauce:
+3 tablespoons rice vinegar
+3 tablespoons soy sauce
+2 teaspoons hoisin sauce
+1/4 cup water
+3 tablespoons sugar
+1 tablespoon cornstarch</string>
+    //tso ins
+    <string name="ins_tso">Toss the chicken thighs with the quarter cup of cornstarch and let sit while you mix the sauce ingredients.
+Add the rice vinegar, soy sauce, hoisin sauce, water, sugar and tablespoon of cornstarch in a small bowl and whisk together.
+Add the chicken to a pan with the oil and fry until crispy.
+Remove chicken from the pan and drain all but a tablespoon of the oil and add the chili flakes, ginger and garlic.
+Cook until you smell the garlic (about 30 seconds).
+Add in the chicken and toss, then add in the sauce.
+Stir for about 30 seconds until thickened.
+Serve immediately.</string>
+
+</resources>
